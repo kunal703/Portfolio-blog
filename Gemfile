@@ -49,3 +49,13 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'bootstrap-sass', '~> 2.3.2.2'
+
+gem 'devise', '~> 4.2'
+
+gem 'inherited_resources', '~> 1.7'
+
+gem 'activeadmin', github: 'activeadmin'
+
+gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
+
+gem 'coffee-script-source', '1.8.0'
