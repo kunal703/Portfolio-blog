@@ -54,6 +54,8 @@ gem 'devise', '~> 4.2'
 
 gem 'inherited_resources', '~> 1.7'
 
+gem 'active_skin'
+
 gem 'activeadmin', github: 'activeadmin'
 
 gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
