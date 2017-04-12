@@ -58,6 +58,8 @@ gem 'active_skin'
 
 gem 'activeadmin', github: 'activeadmin'
 
+gem "paperclip", "~> 5.0.0"
+
 gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
 
 gem 'coffee-script-source', '1.8.0'
