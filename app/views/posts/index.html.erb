@@ -4,11 +4,11 @@
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="C:\Sites\portfolio\app\assets\images\profile.png" alt="">
+                    <%= image_tag "pp1.jpeg", class: "img-responsive" %>
                     <div class="intro-text">
-                        <h1 class="name">Start Bootstrap</h1>
+                        <h1 class="name">Kunal Modi</h1>
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills">Computer Science Graduate Student - New York University</span>
                     </div>
                 </div>
             </div>
@@ -26,11 +26,29 @@
         </div>
         <div class="row">
                 <% @posts.each do |post| %>
-                <div class="col-sm-4 portfolio-item">
-                <%= link_to post_path(post) do %>
-                  <%= image_tag post.image, class: 'img-responsive' %>
-                <% end %>
+               
+                
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1><%= post.title %></h1>
+                    </div>
                 </div>
+                  
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <%= image_tag post.image, class: 'img-responsive' %>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h3>Project Description</h3>
+                        <p><%= post.body %></p>
+                    </div>
+                </div>
+
+            
+                
+                
             <% end %>
         </div>
     </div>
@@ -47,15 +65,10 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                    <p>I am a Graduate Student at the NYU Tandon School of Engineering for MS in Computer Science and actively seeking internship opportunies for summer 2017. My main areas of focus include Big Data Analytics, Cloud Computing and Web Development.  </p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a>
+                    <p> With over four years of experience in progarmming and Web Development I would like to broaden my technical skills by working in a company. I am a dedicated individual with a strong desire to learn new things and a never-say-die attitude</p>
                 </div>
             </div>
         </div>
